@@ -51,6 +51,7 @@ nav ul li a:hover{
 }
 .col-1{
     flex-basis: 40%;
+    /* come check this */
     position: relative;
     margin-left: 50px;
 }
@@ -81,6 +82,29 @@ button{
     background: linear-gradient(to right, #fb5283, #ff3527);
     border-radius: 6px;
     cursor: pointer;
+    transition: width 0.5s;
 }
-
+button img{
+    width: 30px;
+    display: none;
+}
+button:hover img{
+    display: block ;
+}
+button:hover{
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.col-1::after{
+    content: '';
+    width: 10px;
+    height: 57%;
+    background: linear-gradient(#ff469f, #ff6062);
+    position: absolute; 
+    /* come check this */
+    left: -40px;
+    top: 8px;
+}
 
