@@ -146,3 +146,11 @@ button:hover{
     cursor: pointer;
     padding-left: 180px;
 }
+.social-links img{
+    height: 13px;
+    margin: 20px;
+    cursor: pointer;
+}
+.social-links {
+    text-align: center;
+}
